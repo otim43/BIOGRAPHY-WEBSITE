@@ -1,0 +1,1 @@
+Hello comrades, hope you are all doing well, about this webiste project, each one of you is going to choose a participant position e.g. participant1 and edit it by filling it in with the required details and saving it and later updating it in the repository. Hope we can collaborate on this project. Sucess!!!
