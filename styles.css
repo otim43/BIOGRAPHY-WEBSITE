@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background for a softer look */
+    color: #444; /* Darker gray for text */
+}
+
+/* Header Styles */
+header {
+    background: #4a90e2; /* Softer blue */
+    color: white;
+    padding: 15px 0; /* Reduced padding */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em; /* Slightly smaller font size */
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px; /* Reduced margin */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Reduced margin */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal; /* Normal weight for a softer look */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px; /* Slightly less rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.profile-picture {
+    width: 120px; /* Smaller profile picture */
+    height: 120px; /* Smaller profile picture */
+    border-radius: 50%; /* Circular profile picture */
+    border: 2px solid #4a90e2; /* Softer border color */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+main h2 {
+    color: #4a90e2; /* Softer blue for headings */
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+/* Image and Video Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    header h1 {
+        font-size: 1.8em; /* Smaller font size for mobile */
+    }
+	
